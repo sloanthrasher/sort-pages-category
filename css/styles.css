@@ -1,0 +1,51 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+#the-list {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#the-list tr {
+/*    cursor: move; */
+    border-bottom: 1px solid #ccc;
+}
+
+.page-title {
+    cursor: move;
+    padding: 10px;
+/*    background-color: #f9f9f9;*/
+    border: 1px solid #ddd;
+}
+/*
+.page-title {
+	background-color: #fff0 !important;
+}
+*/
+.category-selector {
+    width: 100%;
+    padding: 5px;
+}
+
+#save-changes {
+    margin-top: 20px;
+}
+th:first-of-type {
+	width: 50px;
+	text-align: center;
+}
+#the-list th {
+	text-align: center;
+	border: solid 2px #000;
+	vertical-align: bottom;
+	font-weight: bold;
+}
+#the-list td:first-of-type {
+    text-align:right;
+}
+#the-list td:first-of-type {
+	text-align: right;
+}

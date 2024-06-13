@@ -10,7 +10,6 @@ body {
 }
 
 #the-list tr {
-/*    cursor: move; */
     border-bottom: 1px solid #ccc;
 }
 
@@ -33,7 +32,7 @@ body {
 #save-changes {
     margin-top: 20px;
 }
-th:first-of-type {
+#the-list th:first-of-type {
 	width: 50px;
 	text-align: center;
 }

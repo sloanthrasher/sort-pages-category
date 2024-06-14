@@ -1,0 +1,54 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+#the-list {
+    width: 100%;
+    border-collapse: collapse;
+}
+#the-list tr {
+    border-bottom: 1px solid #ccc;
+}
+.page-title {
+    cursor: move;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+.category-selector {
+    width: 100%;
+    padding: 5px;
+}
+#save-changes {
+    margin-top: 20px;
+}
+#the-list th:first-of-type {
+    width: 50px;
+    text-align: center;
+}
+#the-list th {
+    text-align: center;
+    border: solid 2px #000;
+    vertical-align: bottom;
+    font-weight: bold;
+}
+#the-list td:first-of-type {
+    text-align: right;
+}
+.spp-header {
+    width:100%;
+    text-align:center;
+    vertical-align: middle;
+}
+.shove-left {
+    float: left;
+    width: 68%;
+    text-align:left;
+}
+.shove-right {
+    float: right;
+    width: 30%;
+    border: solid 1px #0005;
+    text-align: left;
+    padding: 4px 10px;
+}

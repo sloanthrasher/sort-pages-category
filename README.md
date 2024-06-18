@@ -2,7 +2,7 @@
 
 ## Sort And Categorize Pages Plugin
 
-![Maintenance Form](doc/screenshot_1.png)
+![Maintenance Form](https://github.com/sloanthrasher/sort-pages-category/tree/Initial-Updates/doc/screenshot_1.png)
 | Zip | Git |
 | :---: | :---: |
 | **[Download Zip File](#https://sloansweb.com/downloads/sort-pages-set-cat.zip)** | **[GitHub Page](#https://github.com/sloanthrasher/sort-pages-category)** |

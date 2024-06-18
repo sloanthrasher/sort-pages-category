@@ -2,7 +2,7 @@
 
 ## Sort And Categorize Pages Plugin
 
-![Page List](doc/screenshot_1.png)
+![Maintenance Form](doc/screenshot_1.png)
 | Zip | Git |
 | :---: | :---: |
 | **[Download Zip File](#https://sloansweb.com/downloads/sort-pages-set-cat.zip)** | **[GitHub Page](#https://github.com/sloanthrasher/sort-pages-category)** |
@@ -15,7 +15,8 @@ Managing a WordPress site with numerous pages can become quite a task, especiall
 
 The Sort Pages Plugin is a versatile WordPress plugin that allows you to rearrange your pages with simple drag-and-drop functionality and assign categories to them through an intuitive dropdown menu. This plugin seamlessly integrates with your WordPress admin dashboard, adding a new menu item under the Appearance section.
 
-![Page List](doc/screenshot_3.png)
+![Drag And Drop To Sort Pages](doc/screenshot_3.png)
+
 #### Key Features
 
 - **Drag-and-Drop Sorting:** Easily reorder your pages by dragging and dropping them into your desired sequence.
@@ -23,7 +24,8 @@ The Sort Pages Plugin is a versatile WordPress plugin that allows you to rearran
 - **Save with One Click:** Save the new order and category assignments with a single click.
 - **Reflect Order in Display:** Ensure your pages are displayed in the saved order across your site.
 
-![Page List](doc/screenshot_2.png) ![Page List](doc/screenshot_6.png)
+![Assign Category](doc/screenshot_2.png) ![Parent/Child Relationships](doc/screenshot_6.png)
+
 ### Getting Started
 
 #### Installation
@@ -41,8 +43,8 @@ Once installed, Sort And Categorize Pages will appear in the Appearance menu in 
 1. **NOTE:** When saving the page, category assignents will be overridden. This may be important if you have assigned multiple categories using another method in WordPress.
 1. Once you’ve made your changes, click the `Save Changes` button at the bottom of the list to save your new order and category assignments.
 
+![Must Save!](doc/screenshot_8.png)
 
-![Page List](doc/screenshot_8.png)
 ### Tips for Effective Page Management
 
 - **Pre-Create Categories:** Before using this utility, ensure you’ve created all the categories you need, including any sub-categories. This preparation will save time and streamline the assignment process.

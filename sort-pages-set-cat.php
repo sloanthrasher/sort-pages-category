@@ -39,7 +39,10 @@ function spp_enqueue_scripts($hook_suffix) {
 	// Enqueue jQuery UI Sortable for drag-and-drop functionality.
 	wp_enqueue_script(
 		'jquery-ui-sortable',
-		array('jquery')
+		'https://sloansweb.com/wp-includes/js/jquery/ui/sortable.min.js?ver=1.13.2',
+		array('jquery'),
+		$ver,
+		true
 	);
 
 	// Enqueue the plugin's JavaScript file.
@@ -142,9 +145,9 @@ function spp_display_admin_page() {
 					
 
 					foreach ($opts as $opt) {
-						$selected = in_array($opt['id'], $page_categories) ? ' selected' : '';
-						$indent = "├" . str_repeat('─', $opt['level'] * 4);
-						echo '<option value="' . esc_attr($opt['id']) . '"' . esc_attr($selected) . '>' . $indent . esc_html($opt['name']) . '</option>';
+						$selected = in_array(esc_html($opt['id']), $page_categories) ? ' selected' : '';
+						$indent = "├" . str_repeat('─', esc_html($opt['level']) * 4);
+						echo '<option value="' . esc_attr($opt['id']) . '"' . esc_attr($selected) . '>' . esc_html($indent . $opt['name']) . '</option>';
 					}
 					echo '</select>';
 					echo '</td>';

@@ -5,7 +5,7 @@
 ![Maintenance Form](doc/Screenshot_1.png "Maintenance Form")
 | Zip | Git |
 | :---: | :---: |
-| **[Download Zip File](#https://sloansweb.com/downloads/sort-pages-set-cat.zip)** | **[GitHub Page](#https://github.com/sloanthrasher/sort-pages-category)** |
+| [Download Zip File](#https://sloansweb.com/downloads/sort-pages-set-cat.zip) | [GitHub Page](#https://github.com/sloanthrasher/sort-pages-category) |
 
 ### Streamlining Your WordPress Admin: How to Sort and Categorize Pages Easily
 
